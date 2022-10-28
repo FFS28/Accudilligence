@@ -1,0 +1,24 @@
+{
+    "trigger": true,
+    "modules": [
+        "verification-link"
+    ],
+    "parentResource": "accudclientapp",
+    "functionName": "accudclientappCustomMessage",
+    "resourceName": "accudclientappCustomMessage",
+    "parentStack": "auth",
+    "triggerEnvs": [
+        {
+            "key": "RESOURCENAME",
+            "value": "resourceName"
+        }
+    ],
+    "triggerDir": "/usr/local/lib/node_modules/@aws-amplify/cli/node_modules/amplify-category-auth/provider-utils/awscloudformation/utils/../triggers/CustomMessage",
+    "triggerTemplate": "CustomMessage.json.ejs",
+    "roleName": "accudclientappCustomMessage",
+    "skipEdit": true,
+    "REDIRECTURL": "https://app.accudiligence.com/",
+    "EMAILSUBJECT": "AccuDiligence Confirmation",
+    "EMAILMESSAGE": "Please follow the link to confirm your account with AccuDiligence",
+    "RESOURCENAME": "resourceName"
+}

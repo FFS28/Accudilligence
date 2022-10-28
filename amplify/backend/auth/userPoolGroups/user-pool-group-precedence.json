@@ -1,0 +1,18 @@
+[
+    {
+        "groupName": "Client",
+        "precedence": 1
+    },
+    {
+        "groupName": "Target",
+        "precedence": 2
+    },
+    {
+        "groupName": "General",
+        "precedence": 3
+    },
+    {
+        "groupName": "Ops",
+        "precedence": 4
+    }
+]

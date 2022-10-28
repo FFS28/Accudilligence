@@ -1,0 +1,43 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-clientapp-dev-172845-authRole",
+            "UnauthRoleArn": "arn:aws:iam::134182675550:role/amplify-clientapp-dev-172845-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::134182675550:role/amplify-clientapp-dev-172845-authRole",
+            "Region": "us-east-2",
+            "DeploymentBucketName": "amplify-clientapp-dev-172845-deployment",
+            "UnauthRoleName": "amplify-clientapp-dev-172845-unauthRole",
+            "StackName": "amplify-clientapp-dev-172845",
+            "StackId": "arn:aws:cloudformation:us-east-2:134182675550:stack/amplify-clientapp-dev-172845/e11a8f40-a44e-11ea-96ec-0653eeca5e60",
+            "AmplifyAppId": "d1j3ouf60fy6gs"
+        },
+        "categories": {
+            "function": {
+                "accudclientappDefineAuthChallenge": {},
+                "accudclientappCreateAuthChallenge": {},
+                "accudclientappVerifyAuthChallengeResponse": {
+                    "RECAPTCHASECRET": "accudiligence"
+                },
+                "accudclientappCustomMessage": {
+                    "REDIRECTURL": "https://app.accudiligence.com/",
+                    "EMAILSUBJECT": "AccuDiligence Confirmation",
+                    "EMAILMESSAGE": "Please follow the link to confirm your account with AccuDiligence"
+                },
+                "accudclientappPostConfirmation": {
+                    "GROUP": "accudGeneral"
+                },
+                "accudappCustomMessage": {
+                    "REDIRECTURL": "https://app.accudiligence.com/",
+                    "EMAILSUBJECT": "AccuDiligence Account Confirmation",
+                    "EMAILMESSAGE": "Please confirm your email."
+                },
+                "accudappPostConfirmation": {
+                    "GROUP": "General"
+                }
+            },
+            "auth": {
+                "accudapp": {}
+            }
+        }
+    }
+}

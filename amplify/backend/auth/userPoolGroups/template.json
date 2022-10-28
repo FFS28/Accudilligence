@@ -1,0 +1,94 @@
+{
+    "AWSTemplateFormatVersion": "2010-09-09",
+    "Parameters": {
+        "authaccudappUserPoolId": {
+            "Type": "String",
+            "Default": "authaccudappUserPoolId"
+        },
+        
+        "authaccudappAppClientID": {
+            "Type": "String",
+            "Default": "authaccudappAppClientID"
+        },
+        "authaccudappAppClientIDWeb": {
+            "Type": "String",
+            "Default": "authaccudappAppClientIDWeb"
+        },
+        "AuthRoleArn": {
+            "Type": "String"
+        },
+        "UnauthRoleArn": {
+            "Type": "String"
+        },
+        "env": {
+            "Type": "String"
+        }
+    },
+    "Conditions": {
+        "ShouldNotCreateEnvResources": {
+            "Fn::Equals": [
+                {
+                    "Ref": "env"
+                },
+                "NONE"
+            ]
+        }
+    },
+    "Resources": {
+    
+        "ClientGroup": {
+          "Type" : "AWS::Cognito::UserPoolGroup",
+          "Properties" : {
+              "GroupName" : "Client",
+              "Precedence" : 1,
+              
+              "UserPoolId" : {
+                "Ref": "authaccudappUserPoolId"
+              } 
+            }
+        },
+        
+    
+        "TargetGroup": {
+          "Type" : "AWS::Cognito::UserPoolGroup",
+          "Properties" : {
+              "GroupName" : "Target",
+              "Precedence" : 2,
+              
+              "UserPoolId" : {
+                "Ref": "authaccudappUserPoolId"
+              } 
+            }
+        },
+        
+    
+        "GeneralGroup": {
+          "Type" : "AWS::Cognito::UserPoolGroup",
+          "Properties" : {
+              "GroupName" : "General",
+              "Precedence" : 3,
+              
+              "UserPoolId" : {
+                "Ref": "authaccudappUserPoolId"
+              } 
+            }
+        },
+        
+    
+        "OpsGroup": {
+          "Type" : "AWS::Cognito::UserPoolGroup",
+          "Properties" : {
+              "GroupName" : "Ops",
+              "Precedence" : 4,
+              
+              "UserPoolId" : {
+                "Ref": "authaccudappUserPoolId"
+              } 
+            }
+        },
+        
+    
+    
+    },
+    
+}
