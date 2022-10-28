@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head profile="http://www.w3.org/2005/10/profile">
+    <link href="./logo.png" type="image/png" rel="icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+    <!--
+    <link rel="icon" type="image/png" href="./favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="./favicon-16x16.png" sizes="16x16">
+    <link rel="mask-icon" href="./safari-pinned-tab.svg" color="#5bbad5">
+    -->
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#353535" />
+    <meta name="description" content="AccuDiligence" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" /><!-- optimal IE Compatibility for PP -->
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="./manifest.json" />
+    <link rel="stylesheet" href="./src/index.css">
+    <link rel="stylesheet" href="./src/animate.css">
+    <link rel="stylesheet" href="./src/style.css">
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+    <link href="vendor/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+    <title>AccuDiligence</title>
+</head>
+
+<body className="blackOut">
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root" class="AppLoaderAnim AnimBorder"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+
+    <!-- JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
+    <!-- CORE PLUGINS -->
+    <!--<script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>-->
+    <!-- PRODUCTION -->
+    <script crossorigin
+        src="https://www.paypal.com/sdk/js?client-id=AXwakwO0eSSncTwb2rC8QyAy4c5Jc6lX3rJxJoB4_7laqt9HvjUMn8VIjyvytFfPX-ZOSdJ92FoIQR5Y&currency=USD&integration-date=2021-06-02"
+        data-sdk-integration-source="button-factory"></script>
+
+    <!--<script crossorigin src="https://www.google.com/recaptcha/api.js" async defer></script>-->
+    <script crossorigin type="text/javascript" id="zsiqchat">
+        var $zoho = $zoho || {}; $zoho.salesiq = $zoho.salesiq || { widgetcode: "094d71f5484d2cecdead204d80d4c81ec5b5d89325a5523360bfa4ea81a3e3ba8f6e117820bc8e29790358e3597f432b", values: {}, ready: function () { } };
+        var d = document; s = d.createElement("script"); s.type = "text/javascript"; s.id = "zsiqscript"; s.defer = true; s.src = "https://salesiq.zoho.com/widget"; t = d.getElementsByTagName("script")[0]; t.parentNode.insertBefore(s, t);
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+    <script>
+        window.cookieconsent.initialise({
+            "palette": {
+                "popup": {
+                    "background": "#3c404d",
+                    "text": "#d6d6d6"
+                },
+                "button": {
+                    "background": "#355c35"
+                }
+            },
+            "theme": "edgeless",
+            "position": "bottom-left",
+            "content": {
+                "message": "This website minimally uses cookies to ensure you get the best experience on our site and application.",
+                "href": "www.accudiligence.com/AccuDiligenceCookiePolicy.pdf"
+            }
+        });
+    </script>
+</body>
+
+</html>
