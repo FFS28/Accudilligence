@@ -1,0 +1,30 @@
+.css-1uccc91-singleValue {
+    color: white !important;
+    font-size: 18px;
+}
+
+.makeStyles-placeholder-29::before {
+    background: #353535;
+    display: flex;
+    left: 5px;
+    font-size: 18px;
+    content: 'Please select a Project' !important;
+    animation: projectSelectFlash 1.7s ease-in-out infinite;
+}
+
+@keyframes projectSelectFlash
+{
+    0% { color: white; text-decoration: none; text-decoration-color: black; }
+    50% { color: darkorange; text-decoration: underline; text-decoration-color: red; }
+    100% { color: white; text-decoration: none; text-decoration-color: black; }
+}
+
+.greyFill
+{
+    height: 34px;
+    vertical-align: middle;
+    background: #353535;
+    color: white;
+    font-size:19px;
+    padding: 9px 17px 3px 17px;
+}

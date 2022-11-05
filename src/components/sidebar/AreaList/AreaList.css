@@ -1,0 +1,11 @@
+.css-1uccc91-singleValue {
+    color: white !important;
+    font-size: 18px;
+}
+
+@keyframes areaSelectFlash
+{
+    0% { color: white; text-decoration: none; text-decoration-color: black; }
+    50% { color: darkorange; text-decoration: underline; text-decoration-color: red; }
+    100% { color: white; text-decoration: none; text-decoration-color: black; }
+}
