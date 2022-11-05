@@ -1,0 +1,556 @@
+body = [
+{
+AID: "TA",
+AllowComment: 0,
+DPID: "DPTADistributionModel",
+HasOptOut: 0,
+Parent: null,
+ProjectID: "2020-28",
+RespType: "YN",
+RuleDependencies: null,
+Sort: 30000010,
+TID: "TPTAMaintainability",
+cText: null,
+hText: null,
+isPrimary: 1,
+qText: "Does the solution require facilitative hardware to be distributed and installed to run any portion of the primary solution, for example, kiosks, printers, POS registers, card readers, iBeacon, medical devices, RFID tags, transponders, etc.",
+respDT: "2020-07-17 17:20:14",
+respData: 1,
+respInitials: "TJ",
+submitted: 1,
+usrComment: null },
+{
+AID: "TA"
+AllowComment: 0
+DPID: "DPTADistributionModel"
+HasOptOut: 0
+Parent: null
+ProjectID: "2020-28"
+RespType: "YN"
+RuleDependencies: null
+Sort: 30000030
+TID: "TPTAMaintainability"
+cText: null
+hText: null
+isPrimary: 1
+pickList: null
+qText: "Disregarding cross-browser-compatible, web-based interfaces, does the solution require deployment of software into user's computing platforms or devices, e.g., COM, drivers, network communication, distributed components, data collectors,  IoT monitoring and integration, etc."
+respDT: null
+respData: null
+respInitials: null
+submitted: 0
+usrComment: null },
+2: {ProjectID: "2020-28", AID: "TA", TID: "TPTAMaintainability", DPID: "DPTADistributionModel",…}
+AID: "TA"
+AllowComment: 1
+DPID: "DPTADistributionModel"
+HasOptOut: 0
+Parent: null
+ProjectID: "2020-28"
+RespType: "MP"
+RuleDependencies: null
+Sort: 30000050
+TID: "TPTAMaintainability"
+cText: " If aware of other distributed legacy or deprecated components not in this list, please identify such components in the space below"
+hText: null
+isPrimary: 1
+qText: "Does the solution require any of the following deprecated technologies be distributed to the user to perform all of its use cases"
+respDT: "2020-07-17 20:09:33"
+respData: ["VBScript", "Flash"]
+respInitials: "TJ"
+submitted: 1
+usrComment: "777"
+3: {ProjectID: "2020-28", AID: "TA", TID: "TPTAMaintainability", DPID: "DPTADistributionModel",…}
+AID: "TA"
+AllowComment: 0
+DPID: "DPTADistributionModel"
+HasOptOut: 0
+Parent: null
+ProjectID: "2020-28"
+RespType: "SP"
+RuleDependencies: null
+Sort: 30000060
+TID: "TPTAMaintainability"
+cText: null
+hText: "Note: do not include the tenancy model for the data storage layer as it is a separate question below."
+isPrimary: 1
+pickList: [{id: 1, title: "Multi-tenant", enabled: true}, {id: 2, title: "Single tenant", enabled: true},…]
+0: {id: 1, title: "Multi-tenant", enabled: true}
+1: {id: 2, title: "Single tenant", enabled: true}
+2: {id: 3, title: "Hybrid tenancy", enabled: true}
+qText: "Can the application logic layer(s) be considered multi-tenant (single instance serves or is shared by multiple customers, including timeshared processing), single tenant (single instance created for each tenant), or a hybrid where some customers have their own instances."
+respDT: null
+respData: null
+respInitials: null
+submitted: 0
+usrComment: null
+4: {ProjectID: "2020-28", AID: "TA", TID: "TPTAMaintainability", DPID: "DPTADistributionModel",…}
+AID: "TA"
+AllowComment: 0
+DPID: "DPTADistributionModel"
+HasOptOut: 0
+Parent: null
+ProjectID: "2020-28"
+RespType: "SP"
+RuleDependencies: null
+Sort: 30000070
+TID: "TPTAMaintainability"
+cText: null
+hText: null
+isPrimary: 1
+pickList: [{id: 1, title: "Multi-tenant", enabled: true}, {id: 2, title: "Single tenant", enabled: true},…]
+0: {id: 1, title: "Multi-tenant", enabled: true}
+1: {id: 2, title: "Single tenant", enabled: true}
+2: {id: 3, title: "Hybrid tenancy", enabled: true}
+qText: "In terms of the platform's database / data storage architecture, are they multi-tenant, single tenant, or a hybrid where some tenants have their own separate data instances"
+respDT: null
+respData: null
+respInitials: null
+submitted: 0
+usrComment: null
+5: {ProjectID: "2020-28", AID: "TA", TID: "TPTAMaintainability", DPID: "DPTADistributionModel",…}
+AID: "TA"
+AllowComment: 0
+DPID: "DPTADistributionModel"
+HasOptOut: 0
+Parent: null
+ProjectID: "2020-28"
+RespType: "BL"
+RuleDependencies: null
+Sort: 30000080
+TID: "TPTAMaintainability"
+cText: null
+hText: null
+isPrimary: 1
+pickList: null
+qText: "Regardless of multi- or single-tenancy, can upgrades to the latest production version be FORCED or REQUIRED to all users on all end points, including any applications or drivers deployed onto devices"
+respDT: null
+respData: null
+respInitials: null
+submitted: 0
+usrComment: null
+6: {ProjectID: "2020-28", AID: "TA", TID: "TPTAMaintainability", DPID: "DPTADistributionModel",…}
+AID: "TA"
+AllowComment: 0
+DPID: "DPTADistributionModel"
+HasOptOut: 0
+Parent: null
+ProjectID: "2020-28"
+RespType: "YN"
+RuleDependencies: null
+Sort: 30000090
+TID: "TPTAMaintainability"
+cText: null
+hText: null
+isPrimary: 1
+pickList: null
+qText: "Do users have the ability to defer the installation of FORCED or REQUIRED upgrades"
+respDT: null
+respData: null
+respInitials: null
+submitted: 0
+usrComment: null
+7: {ProjectID: "2020-28", AID: "TA", TID: "TPTAMaintainability", DPID: "DPTADistributionModel",…}
+AID: "TA"
+AllowComment: 0
+DPID: "DPTADistributionModel"
+HasOptOut: 0
+Parent: null
+ProjectID: "2020-28"
+RespType: "YN"
+RuleDependencies: null
+Sort: 30000100
+TID: "TPTAMaintainability"
+cText: null
+hText: null
+isPrimary: 1
+pickList: null
+qText: "Do users have the ability to defer the installation of RECOMMENDED upgrades"
+respDT: null
+respData: null
+respInitials: null
+submitted: 0
+usrComment: null
+8: {ProjectID: "2020-28", AID: "TA", TID: "TPTAMaintainability", DPID: "DPTADistributionModel",…}
+AID: "TA"
+AllowComment: 0
+DPID: "DPTADistributionModel"
+HasOptOut: 0
+Parent: null
+ProjectID: "2020-28"
+RespType: "YN"
+RuleDependencies: null
+Sort: 30000110
+TID: "TPTAMaintainability"
+cText: null
+hText: null
+isPrimary: 1
+pickList: null
+qText: "Regardless of the user's ability to defer releases, can a version in production be forcefully deprecated from use, for example with an on/off switch variable"
+respDT: null
+respData: null
+respInitials: null
+submitted: 0
+usrComment: null
+9: {ProjectID: "2020-28", AID: "TA", TID: "TPTAMaintainability", DPID: "DPTADistributionModel",…}
+AID: "TA"
+AllowComment: 0
+DPID: "DPTADistributionModel"
+HasOptOut: 0
+Parent: null
+ProjectID: "2020-28"
+RespType: "IN"
+RuleDependencies: null
+Sort: 30000120
+TID: "TPTAMaintainability"
+cText: null
+hText: null
+isPrimary: 1
+pickList: null
+qText: "How many different versions or different builds of the platform are running in production or on client computing devices"
+respDT: null
+respData: null
+respInitials: null
+submitted: 0
+usrComment: null
+10: {ProjectID: "2020-28", AID: "TA", TID: "TPTAMaintainability", DPID: "DPTADistributionModel",…}
+AID: "TA"
+AllowComment: 0
+DPID: "DPTADistributionModel"
+HasOptOut: 0
+Parent: null
+ProjectID: "2020-28"
+RespType: "TX"
+RuleDependencies: null
+Sort: 30000140
+TID: "TPTAMaintainability"
+cText: null
+hText: "Add any additional comments or reference to data room evidence that may be relevant. It is recommended to complete this question only after completing the entire project as areas can have slightly overlapping topics."
+isPrimary: 0
+pickList: null
+qText: "Any other noteworthy facts that should be considered regarding the platform's distribution model"
+respDT: null
+respData: null
+respInitials: null
+submitted: 0
+usrComment: null
+11: {ProjectID: "2020-28", AID: "TA", TID: "TPTAMaintainability", DPID: "DPTADistributionModel",…}
+AID: "TA"
+AllowComment: 0
+DPID: "DPTADistributionModel"
+HasOptOut: 0
+Parent: null
+ProjectID: "2020-28"
+RespType: "DA"
+RuleDependencies: null
+Sort: 30000150
+TID: "TPTAMaintainability"
+cText: null
+hText: null
+isPrimary: 1
+qText: "This panel should display just a calendar control to pick a date"
+respDT: "2020-07-17 20:29:34"
+respData: "2020-07-20T2020-07-23"
+respInitials: "TJ"
+submitted: 1
+usrComment: null
+12: {ProjectID: "2020-28", AID: "TA", TID: "TPTAMaintainability", DPID: "DPTADistributionModel",…}
+AID: "TA"
+AllowComment: 0
+DPID: "DPTADistributionModel"
+HasOptOut: 0
+Parent: null
+ProjectID: "2020-28"
+RespType: "DT"
+RuleDependencies: null
+Sort: 30000160
+TID: "TPTAMaintainability"
+cText: null
+hText: null
+isPrimary: 1
+qText: "This panel should should both a date calendar control selector and a time selection control. DateTime"
+respDT: "2020-07-17 20:32:01"
+respData: "2014-08-19T15:10:00"
+respInitials: "TJ"
+submitted: 1
+usrComment: null
+13: {ProjectID: "2020-28", AID: "TA", TID: "TPTAMaintainability", DPID: "DPTADistributionModel",…}
+AID: "TA"
+AllowComment: 0
+DPID: "DPTADistributionModel"
+HasOptOut: 0
+Parent: null
+ProjectID: "2020-28"
+RespType: "TM"
+RuleDependencies: null
+Sort: 30000170
+TID: "TPTAMaintainability"
+cText: null
+hText: null
+isPrimary: 1
+qText: "This panel should show just a time entry control for time of day"
+respDT: "2020-07-17 20:36:53"
+respData: "12:11:54T16:11:54"
+respInitials: "TJ"
+submitted: 1
+usrComment: null
+14: {ProjectID: "2020-28", AID: "TA", TID: "TPTAMaintainability", DPID: "DPTADistributionModel",…}
+AID: "TA"
+AllowComment: 0
+DPID: "DPTADistributionModel"
+HasOptOut: 0
+Parent: null
+ProjectID: "2020-28"
+RespType: "FL"
+RuleDependencies: null
+Sort: 30000180
+TID: "TPTAMaintainability"
+cText: null
+hText: null
+isPrimary: 1
+pickList: null
+qText: "This control should show a file upload control. Although it may not yet be fully supported as of the current version to store the file into S3 Bucket."
+respDT: null
+respData: null
+respInitials: null
+submitted: 0
+usrComment: null
+15: {ProjectID: "2020-28", AID: "TA", TID: "TPTAMaintainability", DPID: "DPTADistributionModel",…}
+AID: "TA"
+AllowComment: 0
+DPID: "DPTADistributionModel"
+HasOptOut: 0
+Parent: null
+ProjectID: "2020-28"
+RespType: "NO"
+RuleDependencies: null
+Sort: 30000190
+TID: "TPTAMaintainability"
+cText: null
+hText: null
+isPrimary: 1
+pickList: null
+qText: "This panel should only show this question test with no input controls, no submit button, no "Decline to Respond" control."
+respDT: null
+respData: null
+respInitials: null
+submitted: 0
+usrComment: null
+16: {ProjectID: "2020-28", AID: "TA", TID: "TPTAMaintainability", DPID: "DPTADistributionModel",…}
+AID: "TA"
+AllowComment: 0
+DPID: "DPTADistributionModel"
+HasOptOut: 0
+Parent: null
+ProjectID: "2020-28"
+RespType: "SS"
+RuleDependencies: null
+Sort: 30000200
+TID: "TPTAMaintainability"
+cText: null
+hText: null
+isPrimary: 1
+pickList: [{id: 1, title: "per year", enabled: true}, {id: 2, title: "per quarter", enabled: true},…]
+0: {id: 1, title: "per year", enabled: true}
+1: {id: 2, title: "per quarter", enabled: true}
+2: {id: 3, title: "per month", enabled: true}
+3: {id: 4, title: "per week", enabled: true}
+4: {id: 5, title: "per day", enabled: true}
+5: {id: 6, title: "per hour", enabled: true}
+6: {id: 7, title: "per minute", enabled: true}
+7: {id: 8, title: "per second", enabled: true}
+qText: "This panel should show a dropdown single item select control"
+respDT: null
+respData: null
+respInitials: null
+submitted: 0
+usrComment: null
+17: {ProjectID: "2020-28", AID: "TA", TID: "TPTAMaintainability", DPID: "DPTADistributionModel",…}
+AID: "TA"
+AllowComment: 0
+DPID: "DPTADistributionModel"
+HasOptOut: 0
+Parent: null
+ProjectID: "2020-28"
+RespType: "RG"
+RuleDependencies: null
+Sort: 30000210
+TID: "TPTAMaintainability"
+cText: "If the user enters a value in the text field, the slider position should update."
+hText: null
+isPrimary: 1
+pickList: [{min: 1}, {max: 5}]
+qText: "This panel should show a slider control with left being min value and right being max value plus an input text field if the user wants to directly enter a range number. If the slider is used, the input text control must update to the current value of the slider. For the range control, all entries will ALWAYS BE INTERGERS to keep things simple"
+respDT: null
+respData: null
+respInitials: null
+submitted: 0
+usrComment: null
+18: {ProjectID: "2020-28", AID: "TA", TID: "TPTAMaintainability", DPID: "DPTADistributionModel",…}
+AID: "TA"
+AllowComment: 0
+DPID: "DPTADistributionModel"
+HasOptOut: 0
+Parent: null
+ProjectID: "2020-28"
+RespType: "PR"
+RuleDependencies: null
+Sort: 30000220
+TID: "TPTAMaintainability"
+cText: null
+hText: null
+isPrimary: 1
+pickList: null
+qText: "This panel is similar to the RANGE panel above but it will show 0% on the left for the minimum value and 100% on the right for the max value. There is still a slider and an input text field that is updated if the user uses the slider instead of entering a value. If a value is entered in the input fied, the slider position should update."
+respDT: null
+respData: null
+respInitials: null
+submitted: 0
+usrComment: null
+19: {ProjectID: "2020-28", AID: "TA", TID: "TPTAMaintainability", DPID: "DPTADistributionModel",…}
+AID: "TA"
+AllowComment: 0
+DPID: "DPTADistributionModel"
+HasOptOut: 0
+Parent: null
+ProjectID: "2020-28"
+RespType: "EM"
+RuleDependencies: null
+Sort: 30000230
+TID: "TPTAMaintainability"
+cText: "The input text field should be of type EMAIL and the value entered should be validated to be the correct format for an email"
+hText: null
+isPrimary: 1
+pickList: null
+qText: "This panel should show a simple input text field to allow the user to enter an email address."
+respDT: null
+respData: null
+respInitials: null
+submitted: 0
+usrComment: null
+20: {ProjectID: "2020-28", AID: "TA", TID: "TPTAMaintainability", DPID: "DPTADistributionModel",…}
+AID: "TA"
+AllowComment: 0
+DPID: "DPTADistributionModel"
+HasOptOut: 0
+Parent: null
+ProjectID: "2020-28"
+RespType: "RN"
+RuleDependencies: null
+Sort: 30000240
+TID: "TPTAMaintainability"
+cText: "The input text field should be validated to be a real number before submit"
+hText: null
+isPrimary: 1
+pickList: null
+qText: "This panel will show a simple input text field to enter a real number for example 3.1415"
+respDT: null
+respData: null
+respInitials: null
+submitted: 0
+usrComment: null
+21: {ProjectID: "2020-28", AID: "TA", TID: "TPTAMaintainability", DPID: "DPTADistributionModel",…}
+AID: "TA"
+AllowComment: 0
+DPID: "DPTADistributionModel"
+HasOptOut: 0
+Parent: null
+ProjectID: "2020-28"
+RespType: "TX"
+RuleDependencies: null
+Sort: 30000250
+TID: "TPTAMaintainability"
+cText: null
+hText: null
+isPrimary: 1
+pickList: null
+qText: "This panel shoudl display a text area, allowing to be stretched for multi-line text entry."
+respDT: null
+respData: null
+respInitials: null
+submitted: 0
+usrComment: null
+22: {ProjectID: "2020-28", AID: "TA", TID: "TPTAMaintainability", DPID: "DPTADistributionModel",…}
+AID: "TA"
+AllowComment: 0
+DPID: "DPTADistributionModel"
+HasOptOut: 0
+Parent: null
+ProjectID: "2020-28"
+RespType: "UR"
+RuleDependencies: null
+Sort: 30000260
+TID: "TPTAMaintainability"
+cText: null
+hText: null
+isPrimary: 1
+pickList: null
+qText: "This panel will display an input text field for entering a URL."
+respDT: null
+respData: null
+respInitials: null
+submitted: 0
+usrComment: null
+23: {ProjectID: "2020-28", AID: "TA", TID: "TPTAMaintainability", DPID: "DPTADistributionModel",…}
+AID: "TA"
+AllowComment: 0
+DPID: "DPTADistributionModel"
+HasOptOut: 0
+Parent: null
+ProjectID: "2020-28"
+RespType: "IM"
+RuleDependencies: null
+Sort: 30000270
+TID: "TPTAMaintainability"
+cText: "Image upload tends to have a widget for displaying a thumbnail of the image that will be uploaded."
+hText: null
+isPrimary: 1
+pickList: null
+qText: "This panel will be similar to file upload but it is specifically for image upload"
+respDT: null
+respData: null
+respInitials: null
+submitted: 0
+usrComment: null
+24: {
+AllowComment: 0
+DPID: "DPTADistributionModel"
+HasOptOut: 0
+Parent: null
+ProjectID: "2020-28"
+RespType: "SS"
+RuleDependencies: null
+Sort: 30000280
+TID: "TPTAMaintainability"
+cText: "No need for special logic. Removed MO for SS instead"
+hText: null
+isPrimary: 1
+pickList: [{id: 1, title: "January", enabled: true}, {id: 2, title: "February", enabled: true},…]
+qText: "This panel will display the Month as a select drop down. The special MO restType is being removed"
+respDT: null
+respData: null
+respInitials: null
+submitted: 0
+usrComment: null }
+25: {
+AID: "TA"
+AllowComment: 0
+DPID: "DPTADistributionModel"
+HasOptOut: 0
+Parent: null
+ProjectID: "2020-28"
+RespType: "UN"
+RuleDependencies: null
+Sort: 30000290
+TID: "TPTAMaintainability"
+cText: "Use the PickList field to display the units. It will vary based on the question. For examples units can be "ft" versus "m""
+hText: null
+isPrimary: 1
+pickList: [{id: 1, title: "per year", enabled: true}, {id: 2, title: "per quarter", enabled: true},…]
+qText: "This panel shows an input text field and a dropdown single select pickList. So the user can enter something like "2" "per day" or "12" "per year" for example"
+respDT: null
+respData: null
+respInitials: null
+submitted: 0
+usrComment: null }
+]

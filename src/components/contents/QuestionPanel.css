@@ -1,0 +1,25 @@
+
+.QuestionPanelContainer {
+    background-color: #f8fff8;
+    width: 100%;
+    height: 100vh;
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+    
+.css-1uccc91-singleValue {
+    color: white !important;
+    font-size: 18px;
+}
+
+.progressBarContainer {
+    width: 100%;
+    height: 6px;
+    border-radius: 3;
+    margin: auto;
+}
+
+.qBottomSpacer {
+    height: 60px;
+}

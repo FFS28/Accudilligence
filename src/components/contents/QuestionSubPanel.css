@@ -1,0 +1,75 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #subQuestionCircleWhite {
+        margin-left: 12px !important;
+        top: 58% !important;
+    }
+    #subQuestionCircleGrey {
+        top: 50% !important;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    #subQuestionCircleWhite {
+        margin-left: 14px !important;
+        top: 55% !important;
+    }
+    #subQuestionCircleGrey {
+        top: 50% !important;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    #subQuestionCircleWhite {
+        margin-left: 13px !important;
+        top: 55% !important;
+    }
+    #subQuestionCircleGrey {
+        top: 48% !important;
+    }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    #subQuestionCircleWhite {
+        margin-left: 12px !important;
+    }
+    #subQuestionCircleGrey {
+        top: 48% !important;
+    }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    #subQuestionCircleWhite {
+        top: 52% !important;
+        margin-left: 13px !important;
+    }
+    #subQuestionCircleGrey {
+        top: 45% !important;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1500px and up) */
+@media only screen and (min-width: 1500px) {
+    #subQuestionCircleWhite {
+        top: 52% !important;
+        margin-left: 7px !important;
+    }
+    #subQuestionCircleGrey {
+        top: 45% !important;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1600px and up) */
+@media only screen and (min-width: 1600px) {
+    #subQuestionCircleWhite {
+        top: 52% !important;
+        margin-left: 5px !important;
+    }
+    #subQuestionCircleGrey {
+        top: 45% !important;
+    }
+}

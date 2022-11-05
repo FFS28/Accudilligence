@@ -1,0 +1,7 @@
+.appBar {
+    background: '#353535';
+    position:fixed;
+    padding: 4;
+    top: 40;
+    left: 400;
+}
