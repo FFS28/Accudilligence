@@ -1,0 +1,253 @@
+.ClientTaskStyle {
+    color: #151;
+    display: block;
+    width: 100%;
+    height:100%;
+    padding-left: 10px;
+    padding-top:40px;
+}
+
+.marginTop
+{
+  margin-top:40px;
+}
+
+.headLine {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.headLine2 {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    font-style: italic;
+}
+
+.Debug {
+    color: #777;
+    display: block;
+    border-top: 2px solid #355c35;
+}
+
+.bigButton {
+    padding: 40px;
+    background-color: #3c3c3c;
+    color: #fff;
+
+}
+
+.helpText {
+    font-weight: 20;
+    color: #5c5c5c;
+    font-style: italic;
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 25px;
+}
+
+.Spacer {
+    font-size: 24px;
+}
+
+.h1em {
+    font-size: 24px;
+    color: #353535;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.fieldHeader {
+    font-size: 18px;
+    color: #353535;
+    font-style: normal;
+    font-weight: bold;
+    padding: 3px;
+    margin: 0px;
+}
+
+.scopeLabel {
+    font-size: 14px;
+    color: #353535;
+    font-style: italic;
+    font-weight: normal;
+    margin: 0px;
+}
+
+.subIndent {
+    padding-left: 20px;
+}
+
+.price{
+    font-size: 18px;
+    color: #355c35;
+    font-style: italic;
+    font-weight: medium;
+    margin: 1px;
+}
+
+.hilitePrice {
+    font-size: 14px;
+    color: #355c35;
+    font-weight: bold;
+    text-decoration: underline;
+    margin: 0px;
+}
+
+.comingSoon {
+    color: #A77373;
+    font-style: italic;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top:11px;
+}
+
+.horizFields
+{
+    white-space: nowrap;
+
+}
+
+.warning {
+    font-style: italic;
+    font-size: 14px;
+    font-weight: bold;
+    color: #ff3939;
+}
+
+.warningField {
+    font-size: 14px;
+    color: #353535;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.right {
+    position: right;
+    right: 0px;
+    width: 50px;
+    padding: 10px;
+  }
+
+.subToolBarStyle {
+    color: #fff;
+    display: inline-block;
+    background-color:#353535;
+    text-align: right;
+    width: 100%;
+    height: 40px;
+    font-size: 13px;
+}
+
+.fixedheader
+{
+	z-index:8;
+	position:absolute;
+	width:100%;
+	height:40px;
+	line-height:40px;
+	background-color: #355c35;
+	display:inline-block;
+	white-space:nowrap;
+}
+
+.fixedSubHeader
+{
+	z-index:8;
+	position:absolute;
+    width:100%;
+    top: 40px;
+    left: 0;
+	height:30px;
+	line-height:30px;
+	background-color: #353535;
+	display:inline-block;
+	white-space:nowrap;
+}
+
+table.alt {
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+	table.alt tr:nth-child(even) {background: #eee}
+	table.alt tr:nth-child(odd) {background: #ddd}
+
+	table.alt tbody tr td {
+		border: 0;
+		padding-left:5px;
+		padding-right:5px;
+		vertical-align: middle;
+	}
+
+	table.alt tbody tr:first-child td {
+		border-top-width: 1px;
+	}
+
+	table.alt thead th {
+		padding-top:30px;
+		font-weight: 200;
+		line-height: 1.2em;
+		font-size: 1.2em;
+		letter-spacing: 4px;
+		color: #000;
+		border-bottom: 1px solid gold;
+		text-align:center;
+	}
+
+	table.alt tfoot {
+		border-top: 0;
+    }
+
+.clientSideBar
+{
+    background-color:#f8fff8;
+    height:100%;
+    width:200px;
+    border-right: #355c35 2px solid;
+    position: fixed;
+    z-index: 50; 
+    top:40px;
+    left:0px;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    text-align:left;
+}
+
+nav ul {
+    width:100%;
+    padding-inline-start:0px;
+  }
+  
+  nav ul ul {
+      display: none;
+    }
+    nav ul li:hover > ul {
+      display: block;
+    }
+    nav ul:after {
+      content: "";
+      clear: both;
+      display: block;
+    }
+    nav ul li {
+      width:100%;
+      position: relative;
+      list-style-type: none;
+      padding-inline-start: 40px;
+    }
+    nav ul li:hover {
+      background:#355c35;
+      color:#fff;
+  
+    }
+    nav ul li:hover a {
+      color: #fff;
+    }
+    nav ul li a {
+      display: block;
+      padding: 10px 0px;
+      color: #000;
+      text-decoration: none;
+    }
+  

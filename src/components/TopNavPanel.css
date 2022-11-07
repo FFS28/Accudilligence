@@ -1,0 +1,69 @@
+.TopNavPanelStyle {
+    color: #dfd;
+    display: block;
+    text-align: right;
+    height: 40px;
+    font-size: 13px;
+    margin: 0;
+}
+
+.signOutFont
+{
+    color: #dfd;
+    vertical-align: middle;
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.signOutFont:hover {
+    color: gold;
+    text-decoration: underline;
+    transition-duration: 400ms;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+}
+
+.topheader
+{
+	z-index:9;
+	width:99.2vw;
+    height:40px;
+	line-height:40px;
+	background-color: rgba(53,92,53);
+	display:inline-block;
+    white-space:nowrap;
+    overflow: hidden;
+    position: fixed;
+    top: 0%;
+}
+
+.TopLeftIcon
+{
+    float:left;
+}
+
+.headerTitle
+{
+	text-transform: uppercase;
+	color: #fff;
+	text-shadow: 0 0 0.5px rgba(255,255,255,0.25);
+	float:left;
+    padding-left:20px;
+    font-size: 22px;
+}
+
+.RightTopNav {
+    float: right;
+    margin: 0px;
+    padding-right: 20px;
+}
+
+.superCaps {
+    font-size: 28px;
+}
+
+ad-deviceMobile {
+    display: inline;
+    overflow: hidden;
+}

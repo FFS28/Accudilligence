@@ -1,0 +1,77 @@
+.scrollBoxActivateProject {
+    height:225px;
+    width:100%;
+    border:1px solid #ccc;
+    font:14px/20px "Arial Narrow","Helvetica Neue";
+    background-color:#fcf3dc;
+    color:black;
+    overflow:scroll;
+    padding:8px;
+    text-align:left;
+    line-height:1.25em;
+    margin-bottom:10px;
+} 
+
+.goldTrim {
+    border-top: 2px solid gold;
+    border-bottom: 2px solid gold;
+}
+
+.L1Heading {
+    font-size: 14px/32px;
+    font-weight: bold;
+    color: #353535;
+    padding-top:1.5em;
+}
+
+.L2Heading {
+    font-size: 13px/16px;
+    font-weight: bold;
+    color: #353535;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.L3Heading {
+    font-size: 17px;
+    font-weight: bold;
+    color: #353535;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.indentBody {
+    padding-left:20px;
+}
+
+.GeneralInstructions {
+    text-align:left;
+    width: 80%;
+    font-size:15px;
+    padding-left:15px;
+    padding-right:10px;
+    vertical-align:top;
+}
+
+.GeneralInstructions ul {
+    color: #000;
+}
+
+.GeneralInstructions ul li {
+    color: #000;
+    line-height: 1.25em;
+    padding-bottom:12px;
+}
+
+.warningTerm {
+    color: #e03535;
+    font-style: italic;
+}
+
+.underlineMe {
+    text-decoration: underline;
+}
+
+.tnc {
+    color: #353535;
+}

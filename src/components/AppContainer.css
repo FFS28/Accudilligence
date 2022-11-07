@@ -1,0 +1,140 @@
+
+.Debug {
+    color: #777;
+    display: block;
+    border-top: 2px solid #355c35;
+}
+
+.SubNavBar {
+    text-align: right;
+    background-color: #355c35;
+    width: 100%;
+}
+
+.blkbkgnd
+{    
+    background: #000;
+    height:100%;
+}
+
+.filler
+{
+    width:100%;
+}
+
+.fillHeight
+{
+    padding-top:80px;
+}
+
+.centerAlign
+{
+    text-align:center;
+    margin:auto;
+    height:100%;
+}
+
+.tableTop
+{
+    vertical-align:top;
+}
+
+h1
+{
+    padding-top:70px;
+    text-align: center;
+    font-weight: 800;
+    font-variant: small-caps;
+    line-height: 1em;
+    font-size: 4em;
+    letter-spacing: 14px;
+    color: #fff;
+}
+
+.colorWhite
+{
+    color: #fff;
+}
+
+.adHeader
+{
+    margin: auto;
+    width: 80%;
+}
+
+    .adHeader p
+    {
+        letter-spacing: 4px;
+        text-align: center;
+        color: #fff;
+        font-size:1.4em;
+        font-weight:bold;
+    }
+
+.scrollBox
+{
+    margin: auto;
+    height:367px;
+    width:80%;
+    border:1px solid #ccc;
+    font:16px/26px "Helvetica Neue";
+    background-color: rgba(0,0,0,.5);
+    color:#000;
+    overflow:scroll;
+    padding:25px;
+    text-align:justify;
+}
+
+.signupImage
+{
+    width:462px;
+    height:756px;
+    background-color:#000;
+}
+
+.tncLabel
+{
+    font-weight:200;
+    font:16px/26px "Helvetica Neue";
+    color:#fff;
+    padding-left:8px;
+}
+
+.goldTrim 
+{
+    border-top: 3px solid gold;
+    border-bottom: 3px solid gold;
+}
+
+::-webkit-scrollbar-track {
+    border: 1px solid #355c35;
+    border-radius: 10px;
+    }
+    
+::-webkit-scrollbar-thumb {
+background: #355c35;  
+border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+background: #355c35;  
+}
+
+.TaskPanelStyle {
+    display: inline-block;
+    margin:auto;
+    background-color: #fff !important;
+    border-radius: 10px;
+}
+
+
+.padBottom {
+    padding-bottom:10px;
+}
+
+.simpleBlackText
+{
+    color:#000;
+    font-weight:normal;
+    font-size: 14px;
+}

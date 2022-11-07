@@ -1,0 +1,104 @@
+.Debug {
+    color: #777;
+    display: block;
+    border-top: 2px solid #355c35;
+}
+
+.bigButton {
+    padding: 40px;
+    background-color: #3c3c3c;
+    color: #fff;
+
+}
+
+.helpText {
+    font-weight: 20;
+    color: #5c5c5c;
+    font-style: italic;
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 25px;
+}
+
+.Spacer {
+    font-size: 24px;
+}
+
+.h1em {
+    font-size: 24px;
+    color: #353535;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.fieldHeader {
+    font-size: 18px;
+    color: #353535;
+    font-style: normal;
+    font-weight: bold;
+    padding: 3px;
+    margin: 0px;
+}
+
+.scopeLabel {
+    font-size: 14px;
+    color: #353535;
+    font-style: italic;
+    font-weight: normal;
+    margin: 0px;
+}
+
+.subIndent {
+    padding-left: 20px;
+}
+
+.price{
+    font-size: 18px;
+    color: #355c35;
+    font-style: italic;
+    font-weight: medium;
+    margin: 1px;
+}
+
+.hilitePrice {
+    font-size: 14px;
+    color: #355c35;
+    font-weight: bold;
+    text-decoration: underline;
+    margin: 0px;
+}
+
+.comingSoon {
+    color: #A77373;
+    font-style: italic;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top:11px;
+}
+
+.horizFields
+{
+    white-space: nowrap;
+
+}
+
+.warning {
+    font-style: italic;
+    font-size: 14px;
+    font-weight: bold;
+     color: #ff3939;
+}
+
+.warningField {
+    font-size: 14px;
+    color: #353535;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.right {
+    position: right;
+    right: 0px;
+    width: 50px;
+    padding: 10px;
+  }
