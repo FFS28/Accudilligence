@@ -1,0 +1,86 @@
+{
+  "name": "clientapp",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@aws-amplify/api": "^3.1.13",
+    "@aws-amplify/ui-react": "^1.0.6",
+    "@date-io/core": "^2.10.7",
+    "@date-io/date-fns": "^2.10.8",
+    "@date-io/moment": "^1.3.13",
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/pickers": "^3.3.10",
+    "@mdi/js": "^5.9.55",
+    "@stripe/react-stripe-js": "^1.4.0",
+    "@stripe/stripe-js": "^1.13.2",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "amazon-cognito-identity-js": "^4.6.1",
+    "antd": "^4.15.1",
+    "aws-amplify": "^3.3.26",
+    "aws-amplify-react": "^4.2.30",
+    "cors": "^2.8.5",
+    "date-fns": "^2.21.0",
+    "dayjs": "^1.10.4",
+    "jquery": "^3.6.0",
+    "material-ui": "^0.20.2",
+    "material-ui-dropzone": "^3.5.0",
+    "material-ui-phone-number": "^2.2.6",
+    "node-sass": "^4.14.1",
+    "postcss": "8.2.14",
+    "psl": "^1.8.0",
+    "react": "^16.14.0",
+    "react-alert": "^7.0.2",
+    "react-dom": "^16.14.0",
+    "react-google-recaptcha": "^2.1.0",
+    "react-image": "^4.0.3",
+    "react-modal": "^3.13.1",
+    "react-paypal-button-v2": "^2.6.3",
+    "react-redux": "^7.2.3",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^4.0.3",
+    "react-select": "^3.2.0",
+    "react-slick": "^0.27.14",
+    "react-table": "^7.6.3",
+    "react-verification-code-input": "^1.2.9",
+    "redux": "^4.0.5",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-dialog": "^0.2.4",
+    "slick-carousel": "^1.8.1",
+    "styled-components": "^5.2.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "beta": "REACT_APP_STAGE=BETA react-scripts start",
+    "preprod": "REACT_APP_STAGE=PROD yarn run build",
+    "deploy": "aws s3 sync build/ s3://app.accudiligence.com --acl public-read"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://git-codecommit.us-east-2.amazonaws.com/v1/repos/adapp"
+  },
+  "author": "",
+  "license": "ISC"
+}
