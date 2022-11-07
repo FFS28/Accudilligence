@@ -1,0 +1,1698 @@
+/*----- TJannak. Setup Open Sans as Primary Font for Site -----*/
+:root {
+    box-sizing: border-box;
+    --amplify-font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.0em;
+    /*calc(1vw + 0.6em);*/
+    color: #355c35;
+
+    --amplify-primary-color: #2A3354;
+    --amplify-primary-tint: #0000FF;
+    --amplify-primary-shade: #2A3354;
+
+}
+
+amplify-authenticator {
+    margin-top: -120px;
+    display: flex;
+    align-items: 'center';
+    justify-content: 'center';
+    align-content: 'center';
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    font-size: 1.0em;
+    overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #183518;
+}
+
+.darkfont {
+    color: #183518;
+}
+
+h1 {
+    font-size: 2.0em;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 1.25em;
+    font-weight: 700;
+}
+
+h4 {
+    font-size: 1.125em;
+    font-weight: 700;
+}
+
+h5 {
+    font-size: 1.04em;
+    font-weight: 700;
+}
+
+h6 {
+    font-size: 1.0 em;
+    font-weight: 600;
+}
+
+body,
+p {
+    line-height: 1.25em;
+    letter-spacing: 0.03em;
+}
+
+.body2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: black;
+}
+
+.body-small {
+    font-size: 0.85em;
+}
+
+li {
+    font-size: 0.97em;
+    line-height: 1.2em;
+    list-style-type: square;
+    list-style-position: outside;
+    padding-bottom: 0.67em;
+}
+
+input[type=text] {
+    padding: 1px 6px;
+    height: 30px;
+    position: relative;
+    outline: none;
+    font-size: 1rem;
+}
+
+input[type=password] {
+    padding: 1px 6px;
+    height: 30px;
+    position: relative;
+    outline: none;
+    font-size: 1rem;
+    color: #888;
+}
+
+
+.condensed {
+    font-family: 'Open Sans Condensed', 'Arial Narrow', sans-serif;
+    letter-spacing: 0.09em;
+}
+
+.thin {
+    font-weight: 100;
+}
+
+.semi-bold {
+    font-weight: 700;
+}
+
+.monospaced {
+    font-family: monospace;
+}
+
+.stretched {
+    transform: scale(1, 1.3);
+    -webkit-transform: scale(1, 1.3);
+    /* Safari and Chrome */
+    -moz-transform: scale(1, 1.3);
+    /* Firefox */
+    -ms-transform: scale(1, 1.3);
+    /* IE 9+ */
+    -o-transform: scale(1, 1.3);
+    /* Opera */
+}
+
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.centerAmp {
+    display: inline-block;
+    margin: auto;
+    width: 45%;
+    min-width: 400px;
+    text-align: center;
+}
+
+.padTop {
+    background-color: red;
+    padding-top: 100px;
+}
+
+/*-------------- New for 2020 11 ------------*/
+.ad-login-background {
+    padding-top: 64px;
+    padding-bottom: 64px;
+    position: relative;
+    height: fit-content;
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom right, #dbe4f3, #202493);
+    ;
+    /* background-color: black; Used if the image is unavailable */
+    /* background-position: bottom left; Center the image */
+    /* background-repeat: no-repeat; Do not repeat the image */
+    background-size: cover;
+    /* Resize the background image to cover the entire container */
+}
+
+.ad-tall-background {
+    background-image: url("img/bg-alt.jpg");
+    background-color: #355c35;
+    /* Used if the image is unavailable */
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+    /* Resize the background image to cover the entire container */
+}
+
+.fa {
+    padding: 7px;
+    font-size: 17px !important;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5%;
+    margin-right: 12px;
+    margin-top: 4px;
+}
+
+.fa:hover {
+    color: gold;
+    background: rgba(0, 0, 0, 0);
+    transition-duration: 300ms;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-blog {
+    background: #355c35;
+    color: white;
+}
+
+.ad-color-gold {
+    color: gold;
+}
+
+.ad-color-dkgold {
+    color: darkgoldenrod;
+}
+
+.ad-color-white {
+    color: white;
+}
+
+.ad-color-darkorange {
+    color: rgb(199, 109, 0);
+}
+
+.ad-color-companygreen {
+    color: #355c35;
+}
+
+.ad-color-red {
+    color: darkred;
+}
+
+.ad-color-black {
+    color: black;
+}
+
+.ad-color-dkblue {
+    color: #030508
+}
+
+.ad-color-disabled {
+    color: #999;
+}
+
+.ad-radio-help {
+    margin-top: -5px;
+    display: block;
+    margin-left: 30px;
+}
+
+.ad-padding-l-5 {
+    padding-left: 5px;
+}
+
+.ad-padding-l-15 {
+    padding-left: 15px;
+}
+
+.ad-padding-l-20 {
+    padding-left: 20px;
+}
+
+.ad-padding-l-30 {
+    padding-left: 30px;
+}
+
+.ad-margin-l-15 {
+    margin-left: 15px;
+}
+
+.ad-padding-l-50 {
+    padding-left: 50px;
+}
+
+.ad-padding-l-150 {
+    padding-left: 150px;
+}
+
+.ad-padding-l-250 {
+    padding-left: 340px;
+}
+
+.ad-padding-r-5 {
+    padding-right: 5px;
+}
+
+.ad-padding-r-10 {
+    padding-right: 10px;
+}
+
+.ad-padding-r-15 {
+    padding-right: 15px;
+}
+
+.ad-padding-r-20 {
+    padding-right: 20px;
+}
+
+.ad-padding-r-30 {
+    padding-right: 30px;
+}
+
+.ad-padding-r-50 {
+    padding-right: 50px;
+}
+
+.ad-border-white {
+    border: 1px solid white;
+}
+
+.ad-border-black {
+    border: 1px solid black;
+}
+
+.ad-nowrap {
+    white-space: nowrap;
+}
+
+.ad-sm-lr-padding {
+    padding: 0px 4px 0px 4px;
+}
+
+.ad-padding-lr-10 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.ad-padding-lr-15 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.ad-padding-lr-30 {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.ad-padding-lr-100 {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.ad-padding-l-10 {
+    padding-left: 10px;
+}
+
+.ad-margin-0 {
+    margin: 0;
+    padding: 0;
+}
+
+.ad-margin-l-20 {
+    margin-left: 20px;
+}
+
+.ad-margin-l-40 {
+    margin-left: 40px;
+}
+
+.ad-margin-t-0 {
+    margin-top: 0px;
+}
+
+.ad-margin-t-5 {
+    margin-top: 5px;
+}
+
+.ad-margin-t-10 {
+    margin-top: 10px;
+}
+
+.ad-padding-t-20 {
+    margin-top: 20px;
+}
+
+.ad-padding-t-25 {
+    padding-top: 25px;
+}
+
+.ad-padding-t-40 {
+    margin-top: 40px;
+}
+
+
+
+.ad-margin-t-50 {
+    margin-top: 50px;
+}
+
+.ad-margin-t-75 {
+    margin-top: 75px;
+}
+
+.ad-margin-t-100 {
+    margin-top: 100px;
+}
+
+.ad-padding-t-80 {
+    padding-top: 80px;
+}
+
+.ad-tablerowspacing-15 {
+    border-collapse: separate;
+    border-spacing: 0px 15px;
+}
+
+.ad-margin-tb-0 {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.ad-padding-tb-10 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.ad-padding-tb-15 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.ad-margin-tb-20 {
+    margin-top: 20;
+    margin-bottom: 20;
+}
+
+.ad-padding-tb-30 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.ad-padding-tb-60 {
+    padding: 60px 0px;
+}
+
+.ad-margin-0 {
+    margin: 0px !important;
+}
+
+.ad-margin-bullets {
+    margin: 0px 12px 0px 20px;
+}
+
+.ad-margin-paragraph {
+    margin: 0px 15px 16px 10px;
+}
+
+.ad-margin-r-20 {
+    margin-right: 20px;
+}
+
+.ad-margin-b-0 {
+    margin-bottom: 0px;
+    /*----- TJANNAK 20201122 Needed for headings with default margins -----*/
+}
+
+.ad-margin-b-5 {
+    margin-bottom: 5px;
+}
+
+.ad-padding-b-10 {
+    padding-bottom: 10px;
+}
+
+.ad-padding-b-15 {
+    padding-bottom: 15px;
+}
+
+.ad-margin-b-15 {
+    margin-bottom: 15px;
+}
+
+.ad-margin-b-30 {
+    margin-bottom: 30px;
+}
+
+.ad-margin-b-40 {
+    margin-bottom: 40px;
+}
+
+.ad-margin-b-100 {
+    margin-bottom: 100px;
+}
+
+.ad-padding-b-5 {
+    padding-bottom: 5px;
+}
+
+.ad-padding-b-15 {
+    padding-bottom: 15px;
+}
+
+.ad-padding-b-20 {
+    padding-bottom: 20px;
+}
+
+.ad-padding-b-60 {
+    padding-bottom: 60px;
+}
+
+.ad-padding-b-100 {
+    padding-bottom: 100px;
+}
+
+.ad-padding-12 {
+    padding: 12px;
+}
+
+.ad-newuser-staticbackground {
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.ad-newuser-background {
+    background-image: url("./img/1920x1080/adbackground2.png");
+    background-color: black;
+    /* Used if the image is unavailable */
+    background-position: bottom left;
+    /* Center the image */
+    background-repeat: repeat-y;
+    /* Do not repeat the image */
+    background-size: cover;
+    /* Resize the background image to cover the entire container */
+}
+
+@-webkit-keyframes gradientAnim {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 51%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@-moz-keyframes gradientAnim {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 51%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@-o-keyframes gradientAnim {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 51%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@keyframes gradientAnim {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 51%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+.ad-dk-underlay {
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+}
+
+.ad-newuser-bgart-1 {
+    background-image: url("../src/img/1920x1080/08.jpg");
+}
+
+.ad-newuser-bgart-2 {
+    background-image: url("../src/img/1920x1080/02v2.jpg");
+}
+
+.ad-newuser-bgart-3 {
+    background-image: url("../src/img/1920x1080/03.jpg");
+}
+
+.ad-newuser-bgart-10 {
+    background-image: url("../src/img/1920x1080/10.jpg");
+}
+
+.ad-newuser-bgart-11 {
+    background-image: url("../src/img/dkgradient.png");
+}
+
+
+.ad-newuser-bgart-4 {
+    background-image: url("../src/img/1920x1080/09.jpg");
+}
+
+.ad-background-infra {
+    background-image: url("../src/img/800x400/04v2.png");
+}
+
+.ad-background-software {
+    background-image: url("../src/img/800x400/02v3.png");
+}
+
+.ad-background-security {
+    background-image: url("../src/img/800x400/03.png");
+}
+
+.ad-fullwidth {
+    width: 100%;
+}
+
+.ad-fullheight {
+    height: 100%;
+    /* usually for filling height of side by side tables in grids */
+    overflow: scroll;
+}
+
+.ad-fullwidth-grid {
+    margin-right: 14px;
+    /* compensate for Grid extra context for spacing beyond 100% */
+    max-width: 1200px;
+}
+
+.ad-square-bullets {
+    font-size: 0.65em !important;
+    vertical-align: text-top;
+}
+
+.ad-border-b-gold {
+    padding-bottom: 4px;
+    border-bottom: 1px solid gold;
+}
+
+.ad-border-b-gold-b-7 {
+    padding-bottom: 7px;
+    border-bottom: 1px solid gold;
+}
+
+.ad-border-b-faded {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.5);
+}
+
+.ad-border-faded {
+    border: 1px solid rgba(128, 128, 128, 0.5);
+    border-radius: 5px;
+}
+
+.ad-border-photo {
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+
+.ad-border-photo th td {
+    padding: 5px;
+}
+
+.ad-border-photo-gold {
+    border: 1px solid gold;
+    border-radius: 9px;
+    background-color: rgba(0, 0, 0, .4)
+}
+
+.ad-character-button-lg {
+    border-radius: 5px;
+    width: 32px;
+    height: 32px;
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+    /* Resize the background image to cover the entire container */
+    margin: 5px 10px 0px 10px;
+}
+
+.ad-character-button-lg:hover {
+    background-color: #999;
+    transition-duration: 350ms;
+    transition-property: background-color;
+    transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+}
+
+.ad-character-button-question-lg {
+    background-image: url("../src/img/64x64/question-gold.png");
+    border: 1px solid gold;
+    color: gold;
+}
+
+.ad-character-button-dataentry-lg {
+    background-image: url("../src/img/64x64/data-entry.png");
+    border: 1px solid darkred;
+    color: darkred;
+}
+
+.ad-character-button-play-lg {
+    background-image: url("../src/img/64x64/play2.png");
+    border: 1px solid gold;
+    color: gold;
+}
+
+.ad-character-button-gears-lg {
+    background-image: url("../src/img/64x64/gears.png");
+    border: 1px solid darkcyan;
+}
+
+.ad-character-button-user-lg {
+    background-image: url("../src/img/64x64/user.png");
+    border: 1px solid #355c35;
+}
+
+.ad-character-button-account-lg {
+    background-image: url("../src/img/64x64/accounting.png");
+    border: 1px solid black;
+}
+
+.ad-character-button-metric-lg {
+    background-image: url("../src/img/64x64/metric.png");
+    border: 1px solid #4a5054;
+}
+
+.ad-div-inline-block {
+    display: inline-block;
+}
+
+.ad-div-right-photo {
+    width: 25vw;
+    float: right;
+}
+
+.ad-float-l {
+    float: left;
+}
+
+.ad-float-r {
+    float: right;
+}
+
+.ad-bullet-tight {
+    font-weight: 600;
+    font-size: 0.75rem;
+    line-height: 1.2em;
+    letter-spacing: 0.1em;
+    padding-bottom: 5px;
+}
+
+.ad-padding-pgsection {
+    padding: 44px 4px 0px 4px;
+}
+
+.ad-page-section {
+    width: 60vw;
+}
+
+.ad-page-fullheight {
+    min-height: 125vh;
+}
+
+.ad-photo-roundcorners {
+    border-radius: 0px 9px 9px 0px;
+    border: 1p solid rgba(0, 0, 0, 0.4);
+}
+
+.ad-round-bottom-corners {
+    border-radius: 0px 0px 9px 9px;
+    border: 1p solid rgba(0, 0, 0, 0.4);
+}
+
+.ad-price-footnote {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1.2em;
+    padding: 10px 5px
+}
+
+.pricing-icon {
+    font-size: 30px;
+    line-height: 1em;
+}
+
+.pricing-padding-right-10 {
+    padding-right: 10px;
+}
+
+.pricing-padding-right-20 {
+    padding-right: 20px;
+}
+
+.pricing-padding-right-40 {
+    padding-right: 40px;
+}
+
+.ad-align-right {
+    text-align: right;
+}
+
+.ad-align-left {
+    text-align: left;
+}
+
+.ad-align-center {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.ad-headingCenter {
+    text-align: center;
+    padding-bottom: 12px;
+}
+
+.ad-headingLeft {
+    text-align: left;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+}
+
+
+.ad-margin-center {
+    display: block;
+    float: none !important;
+    margin: 0 auto;
+}
+
+.ad-align-justify {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.ad-align-Middle {
+    padding-top: 5px;
+    padding-top: 5px;
+    vertical-align: middle;
+}
+
+.pricing-row-padding {
+    padding: 6px 5px 6px 30px;
+}
+
+.pricing-header-padding {
+    padding: 15px 5px 6px 6px;
+}
+
+.pricing-row-divider {
+    border-bottom-style: solid;
+    border-bottom-color: lightgrey;
+    border-bottom-width: 2px
+}
+
+.ad-table-odd-background {
+    background: rgba(94, 105, 94, 0.5);
+    vertical-align: middle;
+}
+
+.ad-table-even-background {
+    background: rgba(94, 105, 94, 0.75);
+    vertical-align: middle;
+}
+
+.ad-display-flex-h {
+    display: flex;
+    flex-direction: row;
+}
+
+.ad-display-flex-v {
+    display: flex;
+    flex-direction: column;
+}
+
+.ad-limit-width {
+    width: 80%;
+}
+
+.ad-paper-background {
+    background-color: #fdf7f0;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 9px;
+}
+
+.ad-nonpaper-padding {
+    padding: 9px;
+}
+
+.ad-paper-warning-background {
+    background-color: #fcf3dc;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 2px;
+}
+
+.ad-align-top {
+    vertical-align: top;
+}
+
+.ad-width-half {
+    width: 50%;
+}
+
+.ad-width-75pct {
+    width: 75%;
+}
+
+.ad-flush-right {
+    margin-left: auto;
+}
+
+.ad-margin-center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ad-highlight-font {
+    background-color: #ffee8c;
+    font-weight: 700;
+}
+
+.ad-darkred-font {
+    color: darkred;
+}
+
+/*-- 20201203 TJANNAK - Overring Material Table --*/
+.MuiTableCell-body {
+    font-family: 'Open Sans Condensed', 'Arial Narrow', sans-serif !important;
+    font-size: 0.75em !important;
+    letter-spacing: 0.09em !important;
+    font-weight: 700 !important;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+.ad-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.ad-flex-item {
+    flex: 1;
+}
+
+.ad-lineheightnormal {
+    line-height: normal;
+}
+
+.ad-lineheightcompress {
+    position: relative;
+    line-height: 0.2em;
+    padding-top: -10px;
+}
+
+.TopNavPanelStyle {
+    color: #dfd;
+    display: flex;
+    text-align: right;
+    height: 40px;
+    font-size: 13px;
+    margin: 0;
+}
+
+.signOutFont {
+    color: gold;
+    vertical-align: middle;
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.signOutFont:hover {
+    color: gold;
+    text-decoration: underline;
+    transition-duration: 400ms;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+}
+
+.topheader {
+    z-index: 9;
+    width: 100vw;
+    height: 40px;
+    line-height: 40px;
+    background-color: rgba(35, 35, 88);
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    position: fixed;
+    top: 0%;
+}
+
+.unregisteredUserHeader {
+    z-index: 9;
+    width: 100vw;
+    height: 64px;
+    background-color: #080853;
+    /* background-image: url("./img/HeaderBackground.png"); */
+    /* background-position: center; Center the image */
+    /* background-repeat: no-repeat; Do not repeat the image */
+    /* background-size: 100% auto; Resize the background image to cover the entire container */
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    position: fixed;
+    top: 0%;
+    padding: 0;
+}
+
+.btnBackground {
+    background-color: rgba(8, 8, 35);
+    background-image: url("./img/HeaderBackground.png");
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: 100% auto;
+    /* Resize the background image to cover the entire container */
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.TopLeftIcon {
+    float: left;
+}
+
+.TopLeftIconLarge {
+    display: block;
+    position: absolute;
+}
+
+.headerTitle {
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
+    float: left;
+    padding-left: 18px;
+    font-size: 22px;
+}
+
+.headerTitleLarge {
+    text-transform: uppercase;
+    padding-top: 11px;
+    padding-left: 90px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 42px;
+    width: 233px;
+    height: 42px;
+    color: #DDD45E;
+}
+
+.headerTitleSmall {
+    text-transform: uppercase;
+    text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
+    padding-top: 10px;
+    font-size: min(max(0.75rem, 2.0vw), 24px);
+    letter-spacing: normal;
+}
+
+.ad-addedLetterSpacing {
+    letter-spacing: 0.1em;
+}
+
+.ad-largeheadingspacer {
+    margin: 58px 38px auto 64px !important;
+}
+
+
+.ad-dkbackground {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    /* background-color: rgba(0, 0, 0, 0.8); */
+    /* background-position: center; */
+    /* Center the image */
+    /* background-repeat: no-repeat; */
+    /* Do not repeat the image */
+    /* background-size: cover; */
+    /* Resize the background image to cover the entire container */
+    transition: opacity .5s ease-out;
+    -moz-transition: opacity .5s ease-out;
+    -webkit-transition: opacity .5s ease-out;
+    -o-transition: opacity .5s ease-out;
+}
+
+.headerButtons {
+    box-sizing: border-box;
+    position: absolute;
+    width: fit-content;
+    height: 33px;
+    right: 38px;
+    top: 15px;
+    text-align: center;
+    padding: 6px 15px 6px 15px;
+    border: 2px solid #DDB247;
+    border-radius: 7px;
+}
+
+.headerButtons2 {
+    display: flexbox;
+    padding: 0;
+    overflow: hidden;
+    position: absolute;
+    right: 200px;
+    top: 40px;
+}
+
+.headerButtons3 {
+    display: flexbox;
+    padding: 0;
+    overflow: hidden;
+}
+
+.RightTopNav {
+    float: right;
+    margin: 0px;
+    padding-right: 20px;
+}
+
+.superCaps {
+    font-size: 36px;
+}
+
+.superCapSmall {
+    font-size: 30px;
+}
+
+.superscript {
+    font-size: 0.45rem;
+    letter-spacing: normal;
+}
+
+.superscript2 {
+    font-size: 0.8rem;
+    letter-spacing: normal;
+}
+
+.ad-hideOnMobile {
+    display: inline;
+    overflow: hidden;
+}
+
+.nopadding {
+    padding: 0;
+}
+
+.ad-center-helper {
+    text-align: center;
+    margin-top: -30px;
+}
+
+.width-80p {
+    width: 80%;
+}
+
+.width-300px {
+    width: 300px;
+}
+
+.ad-limitedwidth {
+    width: 100%;
+}
+
+#logo-holder {
+    position: relative;
+    right: 4px;
+    width: 26px;
+    height: 28px;
+}
+
+#logo-holder .image {
+    opacity: 1;
+    vertical-align: middle;
+}
+
+#logo-holder .text {
+    transition: opacity 0.3s ease-in-out;
+}
+
+#logo-holder .text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+#logo-holder:hover .image {
+    opacity: 0;
+}
+
+#logo-holder:hover .text {
+    opacity: 1;
+}
+
+.a-main-link {
+    color: gold;
+    transition: all 0.3s linear;
+}
+
+.a-main-link:hover {
+    font-weight: 900;
+    color: pink;
+    transition: color
+}
+
+.a-loginLink {
+    color: darkblue;
+    transition: all 0.3s linear;
+}
+
+.a-loginLink:hover {
+    font-weight: 700;
+    color: darkgoldenrod;
+    transition: color;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+.btn {
+    color: gold;
+    background-color: rgba(0, 0, 0, 0.0);
+    cursor: pointer;
+    font-size: 1.17rem;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    margin: 0px 0px;
+    max-width: 160px;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 100%;
+    overflow: hidden;
+}
+
+@media (min-width: 600px) {
+    .btn {
+        margin: 0 1em 2em;
+    }
+}
+
+.btn:hover {
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.btn-shine {
+    border: 2px solid gold;
+    border-radius: 5px;
+
+    overflow: hidden;
+    position: relative;
+    padding: 3px 20px;
+    margin: 0;
+}
+
+.btn-shine span {
+    z-index: 20;
+}
+
+.btn-shine:after {
+    background: #fff;
+    content: "";
+    height: 155px;
+    left: -125px;
+    opacity: 0.3;
+    position: absolute;
+    top: -50px;
+    transform: rotate(35deg);
+    transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1);
+    width: 50px;
+    z-index: -10;
+}
+
+.btn-shine:hover:after {
+    left: 120%;
+    transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+
+/* Mobile Last Styling - Max not Min - Due to Deskop version Compelted First */
+/* Below are for Mobile screen sizes */
+@media all and (max-width: 23em) {
+    .body-small {
+        font-size: 0.92em;
+    }
+
+    .column {
+        float: left;
+        width: 50%;
+    }
+
+    .ad-hideOnMobile {
+        display: none;
+    }
+
+    .ad-padding-pgsection {
+        padding: 44px 4px 0px 4px;
+    }
+
+    .ad-flex {
+        flex-direction: column;
+    }
+
+    .gridContainer {
+        grid-auto-flow: column;
+    }
+
+    .ad-limitedwidth {
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 450px) {
+    .ad-limitedwidth {
+        width: 100%;
+    }
+}
+
+.forceCenter {
+    align-items: center;
+    text-align: center;
+}
+
+.ad-margin-forceZero {
+    margin: 0;
+    padding: 0;
+}
+
+.ovalButton {
+    background-color: black;
+    border: 2px solid gold;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-weight: 700 !important;
+    border-radius: 20px;
+    transition: all .5s;
+}
+
+.ovalButton:hover {
+    background-color: gold;
+    color: #008 !important;
+    cursor: pointer;
+}
+
+.ovalButtonLabel {
+    font-weight: 700 !important;
+    color: darkgoldenrod;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+.ovalButtonLabel:hover {
+    color: #008 !important;
+}
+
+.ad-div-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ad-valign-bottom {
+    vertical-align: bottom;
+}
+
+.ad-priceCell-padding {
+    padding: 0 0 0 15;
+    margin: 0;
+}
+
+.ad-table-compress {
+    border-spacing: 0px;
+    border-collapse: collapse;
+    min-width: 900px;
+}
+
+.ad-h-collapse {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.ad-appbar {
+    z-index: 9;
+    width: 100vw;
+    height: 40px;
+    line-height: 40px;
+    background-color: rgba(35, 35, 88);
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    position: fixed;
+    padding-left: 100px;
+    top: 40px;
+    color: white;
+}
+
+.ad-appbar-link {
+    position: relative;
+    text-decoration: none;
+    color: white;
+    transition: all .15s;
+}
+
+.ad-appbar-link:hover {
+    font-weight: 700;
+}
+
+.ad-appbar-link::after {
+    content: "";
+    background: white;
+    mix-blend-mode: exclusion;
+    width: calc(100% + 20px);
+    height: 0;
+    position: absolute;
+    bottom: -4px;
+    left: -10px;
+    transition: all .15s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+
+.ad-appbar-link:hover::after {
+    height: calc(100% + 8px)
+}
+
+.ad-hover-row:hover {
+    cursor: pointer;
+    background-color: darkslategray;
+    transition: all .15s;
+}
+
+.ad-lineheight-default {
+    line-height: 1.5em;
+}
+
+.ad-assessment-bkcolor {
+    background-color: #9999AA
+}
+
+.ad-grade-font {
+    font-weight: 900;
+    font-size: 4.5rem;
+}
+
+.ad-tablecell-w-sm {
+    width: 25%;
+}
+
+.ad-tablecell-w-md {
+    width: 50%;
+}
+
+.ad-tablecell-w-lg {
+    width: 75%;
+}
+
+.ad-bullet-indent {
+    padding-left: 12px;
+    text-indent: -15px;
+}
+
+.ad-dim-bkground {
+    background-color: rgba(0, 0, 8, 0.6);
+}
+
+.ad-detailedcell-padding {
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 7px;
+    text-indent: -15px;
+    line-height: 1.4em;
+}
+
+.appcontainer {
+    width: 100%;
+    height: 100vh;
+}
+
+.AppLoaderAnim2:empty {
+    position: absolute;
+    top: calc(50% - 125px);
+    left: calc(50% - 125px);
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 0.8em solid rgba(35, 53, 92, 0.2);
+    background-position: center;
+    /* Center the image */
+    background-image: url("./img/logo.png");
+}
+
+.AnimBorder:empty {
+    border-radius: 50%;
+    border: 0.7em solid rgba(35, 53, 92, 0.5);
+    opacity: 1;
+    animation: flickerAnimation 3s infinite;
+}
+
+@keyframes flickerAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+/** 
+  Valeriya add
+*/
+
+.landing-lists{
+    list-style-type: disc !important;
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: black;
+}
+
+.smalllanding-lists {
+    list-style-type: disc !important;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #000000;
+}
+
+.ad-smallheadingLeft {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}
+
+.ad-color-blue {
+    background: #080853 !important;
+    border-radius: 10px;
+    padding: 21px 17px 21px 17px;
+}
+
+.smalllanding {
+    color: white !important;
+    list-style-type: disc !important;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.smalllanding-p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.smalllandingbuttons {
+    box-sizing: border-box;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+    padding: 6px;
+    border: 1px solid #DDB247;
+    border-radius: 7px;
+    margin: 10px auto 34px auto;
+    
+}
+
+.landing-small-btn {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color: #FFCF25;
+}
+
+.V_login_title {
+    color: darkgoldenrod;
+    font-weight: bold;
+}
